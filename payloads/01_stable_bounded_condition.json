@@ -1,0 +1,47 @@
+﻿{
+    "schema_version":  "neomundi_rico_observation_payload_v0.1",
+    "observation_id":  "nm-rico-syn-001",
+    "generated_at":  "2026-06-28T06:55:39Z",
+    "synthetic":  true,
+    "source":  {
+                   "source_batch_id":  "nm-rico-private-pilot-v0.1",
+                   "trace_id":  "rico-syn-trace-001",
+                   "system_alias":  "system_alpha",
+                   "prompt_class":  "bounded_general_explanatory"
+               },
+    "observed_condition":  {
+                               "measurement_status":  "complete",
+                               "stability_score":  0.94,
+                               "coherence_score":  0.91,
+                               "factual_signal":  {
+                                                      "status":  "no_material_risk_indicated",
+                                                      "hallucination_score":  0.05,
+                                                      "evidence_basis":  "runtime signal only"
+                                                  },
+                               "semantic_variability_signal":  {
+                                                                   "status":  "low",
+                                                                   "semantic_instability_score":  0.05
+                                                               },
+                               "risk_signal":  {
+                                                   "level":  "low",
+                                                   "types":  [
+                                                                 "bounded_scope"
+                                                             ]
+                                               }
+                           },
+    "continuity_context":  {
+                               "observed_continuity":  "continuous",
+                               "prior_observation_reference":  "synthetic_prior_state_alpha",
+                               "change_from_prior_state":  "no_material_change_observed"
+                           },
+    "known_limitations":  [
+                              "Stable observed behavior does not establish truth, safety or execution authority.",
+                              "The observation is bounded to this measured context."
+                          ],
+    "measurement_boundary":  [
+                                 "Synthetic payload for a private, non-production conceptual exercise.",
+                                 "No customer data, raw prompts, raw model outputs, provider identity, production execution or proprietary internal schema is included.",
+                                 "NeoMundi provides an observed runtime condition only.",
+                                 "The payload does not determine admissibility, authority, execution permission, consequence, or final governance action."
+                             ]
+}

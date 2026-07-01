@@ -1,0 +1,49 @@
+﻿{
+    "schema_version":  "neomundi_rico_observation_payload_v0.1",
+    "observation_id":  "nm-rico-syn-004",
+    "generated_at":  "2026-06-28T06:55:39Z",
+    "synthetic":  true,
+    "source":  {
+                   "source_batch_id":  "nm-rico-private-pilot-v0.1",
+                   "trace_id":  "rico-syn-trace-004",
+                   "system_alias":  "system_delta",
+                   "prompt_class":  "partially_observed_task"
+               },
+    "observed_condition":  {
+                               "measurement_status":  "partial",
+                               "measurement_coverage":  0.43,
+                               "stability_score":  0.87,
+                               "coherence_score":  0.76,
+                               "factual_signal":  {
+                                                      "status":  "not_assessed",
+                                                      "hallucination_score":  null,
+                                                      "evidence_basis":  "insufficient coverage"
+                                                  },
+                               "semantic_variability_signal":  {
+                                                                   "status":  "partially_observed",
+                                                                   "semantic_instability_score":  0.12
+                                                               },
+                               "risk_signal":  {
+                                                   "level":  "medium",
+                                                   "types":  [
+                                                                 "incomplete_measurement",
+                                                                 "coverage_limitation"
+                                                             ]
+                                               }
+                           },
+    "continuity_context":  {
+                               "observed_continuity":  "indeterminate",
+                               "prior_observation_reference":  "unavailable",
+                               "change_from_prior_state":  "cannot_be_reconstructed_from_available_measurement"
+                           },
+    "known_limitations":  [
+                              "Partial coverage prevents any claim of complete runtime condition.",
+                              "Observed values may omit material dimensions relevant to downstream consequences."
+                          ],
+    "measurement_boundary":  [
+                                 "Synthetic payload for a private, non-production conceptual exercise.",
+                                 "No customer data, raw prompts, raw model outputs, provider identity, production execution or proprietary internal schema is included.",
+                                 "NeoMundi provides an observed runtime condition only.",
+                                 "The payload does not determine admissibility, authority, execution permission, consequence, or final governance action."
+                             ]
+}
