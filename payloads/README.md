@@ -1,26 +1,33 @@
 # Representative Observation Cases
 
-This folder contains the controlled, redacted NeoMundi observation cases used for the private RiCo exploratory pilot.
+Each NeoMundi observation payload has a corresponding RiCo governance assessment.
 
-The cases are not production data.
+Observation payloads remain unchanged.
 
-They are representative runtime scenarios designed to evaluate the architectural boundary between runtime observation and runtime governance.
+RiCo assessments evaluate the observation using a fixed governance assessment contract.
 
-The representative cases explore:
+Observation and governance remain separate architectural artifacts.
 
-- runtime observation;
-- represented reality;
-- admissibility assessment;
-- execution integrity;
-- runtime execution boundaries;
-- reconstructable governance receipts.
+Each assessment answers:
 
-Each payload represents a different runtime condition that may affect the admissibility of downstream execution.
+1. What was observed?
+2. What evidence exists?
+3. What authority exists?
+4. Is the observation sufficient?
+5. What admissibility posture results?
+6. What execution boundary results?
+7. What governance receipt would be produced?
 
-NeoMundi provides the runtime observation together with its documented measurement limits.
+Locked terminology:
 
-RiCo evaluates whether the represented reality remains sufficient to justify a requested downstream consequence under present runtime conditions.
+REB = Runtime Execution Boundary
 
-The purpose of these cases is not to automate governance decisions.
+RiCo = Runtime Integrity Control
 
-The purpose is to evaluate whether runtime observation, admissibility assessment, execution boundaries and governance receipts can remain reconstructable as operating conditions evolve.
+CARE/REB = Runtime Execution Boundary architecture.
+
+Humans First.
+Continuity Always.
+Architecture Must Survive.
+
+Case assessments shall not rename architecture or modify governance terminology without Richard approval.
