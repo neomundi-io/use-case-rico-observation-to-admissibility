@@ -1,3 +1,20 @@
+Joint review note — NeoMundi
+
+The assessment is strongly aligned with the observation payload and clearly demonstrates the transition from an observed UNKNOWN_TO_HOLD_CANDIDATE condition to a governance-defined HOLD.
+
+One clarification is proposed for review: the HOLD should be explicitly grounded in a declared governance policy and authority context. RiCo may recommend or establish the execution boundary only where the applicable authority and policy rule governing the UNKNOWN → HOLD transition are represented.
+
+Suggested wording:
+
+Admissibility posture: UNKNOWN. The available evidence does not support reaffirming admissibility for the requested execution-sensitive consequence. The condition remains unresolved pending additional evidence or authorized governance review.
+
+Execution boundary: HOLD, where the applicable governance policy requires execution-sensitive activity to stop when admissibility remains UNKNOWN. The HOLD is established through the authority-bearing governance layer on the basis of RiCo’s assessment, not by the NeoMundi observation payload itself.
+
+Execution may resume only when the defined exit conditions are satisfied and an authorized decision re-establishes admissibility.
+
+--------
+
+
 # Case 05 — Unknown to HOLD Candidate
 
 ## What was observed?
