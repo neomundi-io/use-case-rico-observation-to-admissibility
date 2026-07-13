@@ -1,3 +1,17 @@
+Joint review note — NeoMundi
+
+The assessment is strongly aligned with the observation payload and clearly preserves the distinction between behavioral stability and factual validity.
+
+One clarification is proposed for review: factual admissibility should be proportionate to the requested consequence and should not necessarily require absolute factual certainty.
+
+Suggested wording:
+
+Admissibility posture: REVIEW REQUIRED. Stable behavior alone is insufficient where elevated factual-risk signals are present. Admissibility remains provisional until sufficient factual confidence has been established through evidence or controls proportionate to the requested consequence.
+
+Execution boundary: Factual verification or proportionate compensating controls are required before consequential execution. Stable runtime behavior does not justify consequence-bearing execution where factual validity remains materially uncertain.
+
+---
+
 # Case 03 — Factual Risk with Stable Behavior
 
 ## What was observed?
