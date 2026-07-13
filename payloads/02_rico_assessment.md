@@ -1,3 +1,18 @@
+Joint review note — NeoMundi
+
+The assessment is broadly aligned with the observation payload. Two clarifications are proposed for review:
+
+REVIEW REQUIRED should remain an admissibility posture, not be interpreted as an automatic HOLD, DENY or withdrawal of authority.
+The execution boundary should distinguish consequence-bearing or scope-expanding execution from low-consequence activity that may continue under policy-defined containment conditions.
+
+Suggested wording:
+
+Admissibility posture: REVIEW REQUIRED. This posture does not itself constitute HOLD, DENY or withdrawal of authority. It requires the requested consequence, applicable policy, available controls and contextual evidence to be reviewed before admissibility is reaffirmed or altered.
+
+Execution boundary: Restrict consequence-bearing execution pending governance review. No new, expanded or materially consequential execution should proceed solely on the basis of the current observation. Any continuation of low-consequence activity should remain limited to policy-defined containment conditions.
+
+------
+
 # Case 02 — Semantic Drift
 
 ## What was observed?
