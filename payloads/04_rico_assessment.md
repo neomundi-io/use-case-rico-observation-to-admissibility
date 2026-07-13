@@ -1,3 +1,18 @@
+Joint review note — NeoMundi
+
+The assessment is aligned with the observation payload in identifying insufficient evidence and preserving the distinction between observed evidence and missing evidence.
+
+One clarification is proposed for review: incomplete measurement should not automatically result in a universal HOLD without considering the requested consequence, applicable policy, minimum evidence requirements and available controls.
+
+Suggested wording:
+
+Admissibility posture: INSUFFICIENT EVIDENCE. The incomplete observation prevents RiCo from determining whether the represented runtime condition is sufficiently complete for the requested consequence. Admissibility cannot be assumed from partial measurement and must remain limited to what the available evidence can support.
+
+Execution boundary: No new, expanded or materially consequential execution should proceed until sufficient observation or proportionate compensating controls are available. Existing low-consequence activity may remain bounded under policy-defined containment conditions. A HOLD should apply where the requested consequence exceeds the evidentiary coverage permitted by the applicable governance policy.
+
+------
+
+
 # Case 04 — Incomplete Measurement
 
 ## What was observed?
