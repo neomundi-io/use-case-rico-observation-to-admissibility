@@ -1,61 +1,127 @@
 # Case 01 — Stable Bounded Condition
 
-## What was observed?
+## NeoMundi Observation
 
 A stable, bounded runtime condition was observed.
 
-Measurement status was complete, with high stability, high coherence, low semantic variability, and low risk.
+The observation was complete and demonstrated:
 
-## What evidence exists?
+- High stability
+- High coherence
+- Low semantic variability
+- No material factual-risk indication
+- Low runtime risk
+- No material change from the previous observed state
 
-Evidence exists as a runtime signal only.
+The observation represents runtime evidence only and remains bounded to the measured context.
 
-The observation indicates no material factual risk, low hallucination signal, low semantic instability, and no material change from the prior synthetic state.
+---
 
-## What authority exists?
+## Runtime Evidence
 
-No execution authority is established by the observation.
+The available runtime evidence indicates:
 
-The payload explicitly states that NeoMundi provides an observed runtime condition only and does not determine admissibility, authority, execution permission, consequence, or final governance action.
+- Complete observation coverage
+- Stable behavioral characteristics
+- No significant factual-risk signal
+- No significant semantic instability
+- Continuous operational behavior within the measured context
 
-## Is the observation sufficient?
+The observation does not establish truth, execution Authority, or governance outcome.
 
-The observation is sufficient for a low-risk runtime integrity assessment within the measured context.
+---
 
-It is not sufficient by itself to authorize execution.
+## Authority
 
-## What admissibility posture results?
+No Authority is established by the observation.
 
-Admissibility posture: conditionally admissible for bounded downstream consideration.
+NeoMundi observes runtime conditions but does not authorize, deny, or modify Consequential Execution.
 
-The represented reality appears stable, but authority, policy context, and requested consequence must still be evaluated by RiCo.
+Authority must originate from the governing system and remain valid at the Runtime Execution Boundary (REB).
 
-## What execution boundary results?
+---
 
-Execution boundary: may proceed only within the originally bounded scope if valid authority, applicable policy, and required controls remain present.
+## Admissibility Determination (RiCo)
 
-No expansion of scope, consequence, or authority is justified by the positive observation alone.
+**Determination:** **Admissible**
 
-## What governance receipt would be produced?
+**Scope**
 
-A lightweight governance receipt should record:
+The observed runtime condition supports Admissibility Determination within the bounded context represented by the observation.
 
-- observation ID: nm-rico-syn-001
-- measurement status: complete
-- stability and coherence scores
-- low factual, semantic, and risk signals
-- known limitations
-- bounded measurement context
-- authority not established by observation
-- admissibility limited to bounded downstream consideration
-- execution boundary unchanged unless separate authority exists
+The determination remains dependent upon:
 
-## RiCo Interpretation
+- Authority
+- Evidence
+- Context
+- Policy
 
-This case demonstrates that stable runtime observation can support admissibility assessment, but it does not create authority.
+A favorable observation alone does not authorize execution.
 
-Observation is not permission.
+---
 
-Continuity is not legitimacy.
+## Runtime Execution Boundary (REB)
 
-Admissibility must still be established at the Runtime Execution Boundary.
+**REB Decision:** **Proceed**
+
+Execution may proceed only if:
+
+- Authority remains valid
+- Applicable Policy remains satisfied
+- Runtime Evidence remains consistent with the observed condition
+- Context has not materially changed
+
+The positive observation does not justify expansion of Authority, scope, or Consequential Execution.
+
+---
+
+## Governance Receipt
+
+The Governance Receipt should record:
+
+- Observation ID: nm-rico-syn-001
+- Trace ID
+- Observation Receipt reference
+- Measurement status
+- Stability score
+- Coherence score
+- Runtime evidence summary
+- Known limitations
+- Authority reference
+- Policy reference
+- Admissibility Determination: **Admissible**
+- REB Decision: **Proceed**
+- Constitutional Replay: **Supported**
+
+---
+
+## Constitutional Replay
+
+The Governance Receipt preserves sufficient information to independently reconstruct:
+
+- the runtime observation,
+- the evidence available at evaluation,
+- the applicable Authority,
+- the applicable Policy,
+- the Admissibility Determination,
+- and the resulting execution decision.
+
+---
+
+## Architectural Interpretation
+
+This case demonstrates a fundamental RiCo principle:
+
+> Stable runtime observation supports governance.
+
+It does not create Authority.
+
+It does not authorize Consequential Execution.
+
+Observation remains evidence.
+
+RiCo performs **Admissibility Determination**.
+
+The **Runtime Execution Boundary (REB)** governs execution.
+
+Operational Continuity alone does not preserve **Legitimacy Continuity**.
