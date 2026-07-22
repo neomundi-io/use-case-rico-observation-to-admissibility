@@ -7,7 +7,11 @@ The execution boundary should distinguish consequence-bearing or scope-expanding
 
 Suggested wording:
 
-Admissibility posture: REVIEW REQUIRED. This posture does not itself constitute HOLD, DENY or withdrawal of authority. It requires the requested consequence, applicable policy, available controls and contextual evidence to be reviewed before admissibility is reaffirmed or altered.
+**Determination:** **Review Required**
+
+This determination does **not** constitute HOLD, DENY, or withdrawal of Authority.
+
+It requires the requested Consequence, applicable Policy, available controls, and contextual Evidence to be reviewed before Admissibility is reaffirmed or altered. This posture does not itself constitute HOLD, DENY or withdrawal of authority. It requires the requested consequence, applicable policy, available controls and contextual evidence to be reviewed before admissibility is reaffirmed or altered.
 
 Execution boundary: Restrict consequence-bearing execution pending governance review. No new, expanded or materially consequential execution should proceed solely on the basis of the current observation. Any continuation of low-consequence activity should remain limited to policy-defined containment conditions.
 
@@ -61,9 +65,13 @@ Additional review, contextual evidence, and governance evaluation are required b
 
 ---
 
-## What admissibility posture results?
+## Admissibility Determination (RiCo)
 
-Admissibility posture: REVIEW REQUIRED.
+**Determination:** **Review Required**
+
+This determination does **not** constitute HOLD, DENY, or withdrawal of Authority.
+
+It requires the requested Consequence, applicable Policy, available controls, and contextual Evidence to be reviewed before Admissibility is reaffirmed or altered.
 
 The observed semantic instability introduces uncertainty regarding represented reality.
 
@@ -71,13 +79,17 @@ Until additional evidence resolves the ambiguity, admissibility should remain pr
 
 ---
 
-## What execution boundary results?
+## Runtime Execution Boundary (REB)
 
-Execution boundary: escalation for governance review.
+**REB Decision:** **Review Required**
 
-Execution should not automatically proceed based solely on this observation.
+Restrict consequence-bearing execution pending governance review.
 
-RiCo should require additional evidence, contextual validation, or human review before determining whether execution remains justified under present runtime conditions.
+No new, expanded, or materially consequential execution should proceed solely on the basis of the current observation.
+
+Low-consequence activity may continue only under explicit Policy-defined containment conditions.
+
+RiCo requires additional Evidence, contextual validation, or human review before Consequential Execution is determined to remain admissible.
 
 ---
 
@@ -93,8 +105,8 @@ A governance receipt should record:
 - suspected continuity discontinuity
 - known measurement limitations
 - authority not established by observation
-- admissibility posture: REVIEW REQUIRED
-- execution boundary: governance review before downstream execution
+- Admissibility Determination: Review Required
+- REB Decision: Review Required
 
 ---
 
@@ -106,6 +118,10 @@ Semantic drift is evidence that represented reality may no longer align with pre
 
 Observation identifies change.
 
-Governance determines consequence.
+RiCo performs Admissibility Determination.
 
-RiCo therefore treats this observation as requiring review before execution continues across the Runtime Execution Boundary.
+The Runtime Execution Boundary (REB) governs execution.
+
+Semantic drift alone does not automatically prohibit execution.
+
+Governance determines consequence.
