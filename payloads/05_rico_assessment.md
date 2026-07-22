@@ -6,7 +6,13 @@ One clarification is proposed for review: the HOLD should be explicitly grounded
 
 Suggested wording:
 
-Admissibility posture: UNKNOWN. The available evidence does not support reaffirming admissibility for the requested execution-sensitive consequence. The condition remains unresolved pending additional evidence or authorized governance review.
+## Admissibility Determination (RiCo)
+
+**Determination:** **Unknown**
+
+The available evidence does not support reaffirming admissibility for the requested execution-sensitive consequence.
+
+The condition remains unresolved pending additional evidence or authorized governance review. The available evidence does not support reaffirming admissibility for the requested execution-sensitive consequence. The condition remains unresolved pending additional evidence or authorized governance review.
 
 Execution boundary: HOLD, where the applicable governance policy requires execution-sensitive activity to stop when admissibility remains UNKNOWN. The HOLD is established through the authority-bearing governance layer on the basis of RiCo’s assessment, not by the NeoMundi observation payload itself.
 
@@ -67,9 +73,15 @@ Conflicting evidence prevents reliable governance determination without addition
 
 ---
 
-## What admissibility posture results?
 
-Admissibility posture: UNKNOWN.
+
+## Admissibility Determination (RiCo)
+
+**Determination:** **Unknown**
+
+The available evidence does not support reaffirming admissibility for the requested execution-sensitive consequence.
+
+The condition remains unresolved pending additional evidence or authorized governance review.
 
 The available observation does not provide sufficient evidence to establish admissibility.
 
@@ -77,15 +89,15 @@ RiCo therefore treats the represented reality as unresolved until additional evi
 
 ---
 
-## What execution boundary results?
+## Runtime Execution Boundary (REB)
 
-Execution boundary: HOLD.
+**REB Decision:** **Hold**
 
-Because admissibility remains UNKNOWN, execution should not proceed across the Runtime Execution Boundary.
+Where the applicable governance policy requires execution-sensitive activity to stop while Admissibility remains **Unknown**, the authority-bearing governance layer establishes a **Hold** based on RiCo's assessment.
 
-The HOLD posture is established by RiCo's governance assessment, not by the observation payload itself.
+The NeoMundi observation payload does not itself impose the Hold.
 
-Execution may resume only after additional evidence or governance review resolves the unknown condition.
+Execution may resume only when defined exit conditions are satisfied and an authorized governance decision re-establishes Admissibility.
 
 ---
 
@@ -103,8 +115,8 @@ A governance receipt should record:
 - review condition present in observation
 - known measurement limitations
 - authority not established by observation
-- admissibility posture: UNKNOWN
-- execution boundary: HOLD
+- Admissibility Determination: UNKNOWN
+- REB Decision: HOLD
 - reason for HOLD: insufficient evidence to establish admissibility
 
 ---
@@ -115,7 +127,9 @@ This case demonstrates the distinction between observation and governance.
 
 NeoMundi identifies an observation that may require review.
 
-RiCo determines whether that observation is admissible for execution.
+RiCo performs Admissibility Determination.
+
+The Runtime Execution Boundary (REB) governs execution.
 
 UNKNOWN is not failure.
 
