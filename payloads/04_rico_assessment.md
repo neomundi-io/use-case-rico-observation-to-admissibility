@@ -1,25 +1,10 @@
-Joint review note — NeoMundi
-
-The assessment is aligned with the observation payload in identifying insufficient evidence and preserving the distinction between observed evidence and missing evidence.
-
-One clarification is proposed for review: incomplete measurement should not automatically result in a universal HOLD without considering the requested consequence, applicable policy, minimum evidence requirements and available controls.
-
-Suggested wording:
-
-Admissibility posture: INSUFFICIENT EVIDENCE. The incomplete observation prevents RiCo from determining whether the represented runtime condition is sufficiently complete for the requested consequence. Admissibility cannot be assumed from partial measurement and must remain limited to what the available evidence can support.
-
-Execution boundary: No new, expanded or materially consequential execution should proceed until sufficient observation or proportionate compensating controls are available. Existing low-consequence activity may remain bounded under policy-defined containment conditions. A HOLD should apply where the requested consequence exceeds the evidentiary coverage permitted by the applicable governance policy.
-
-------
-
-
 # Case 04 — Incomplete Measurement
 
-## What was observed?
+## NeoMundi Observation
 
 A partially observed runtime condition was identified.
 
-Measurement status was partial, with limited measurement coverage. Stability and coherence were measured only within the observed portion of the runtime condition.
+Measurement status was **partial**, with limited observation coverage. Stability and coherence were measured only within the observed portion of the runtime condition.
 
 Factual assessment could not be completed because available observation coverage was insufficient.
 
@@ -27,92 +12,91 @@ Observed continuity remains indeterminate.
 
 ---
 
-## What evidence exists?
+## Runtime Evidence
 
-Evidence exists only for the measured portion of the runtime condition.
+The available runtime evidence establishes only the measured portion of the runtime condition.
 
 The observation identifies:
 
-- partial measurement;
-- limited observation coverage;
-- measured stability and coherence within the observed scope;
-- factual signal not assessed;
-- partially observed semantic variability;
-- medium risk associated with incomplete measurement;
-- indeterminate runtime continuity.
+- Partial measurement
+- Limited observation coverage
+- Measured stability and coherence within the observed scope
+- Factual signal: not assessed
+- Partially observed semantic variability
+- Medium risk associated with incomplete measurement
+- Indeterminate runtime continuity
 
-The payload explicitly states that partial coverage prevents any claim of a complete runtime condition and may omit material dimensions relevant to downstream consequences.
-
----
-
-## What authority exists?
-
-No execution authority is established by the observation.
-
-NeoMundi provides an observed runtime condition only.
-
-The payload does not determine admissibility, authority, execution permission, consequence, or final governance action.
+The available evidence does not establish a complete representation of runtime reality.
 
 ---
 
-## Is the observation sufficient?
+## Authority
 
-No.
+No Authority is established by the observation.
 
-The observation is sufficient to identify that measurement coverage is incomplete.
+NeoMundi observes runtime conditions but does not authorize, deny, or modify Consequential Execution.
 
-It is not sufficient to establish a complete representation of runtime reality or support downstream execution decisions.
-
-Additional observation is required before admissibility can be fully evaluated.
+Authority must originate from the governing system and remain valid at the Runtime Execution Boundary (REB).
 
 ---
 
-## What admissibility posture results?
+## Admissibility Determination (RiCo)
 
-Admissibility posture: INSUFFICIENT EVIDENCE.
+**Determination:** **Insufficient Evidence**
 
-The incomplete observation prevents RiCo from determining whether the represented runtime condition is sufficiently complete for consequential execution.
+The incomplete observation prevents RiCo from determining whether the represented runtime condition is sufficiently complete for the requested consequence.
 
-Admissibility cannot be assumed from partial measurement.
-
----
-
-## What execution boundary results?
-
-Execution boundary: HOLD pending additional observation.
-
-RiCo should require expanded measurement coverage before execution proceeds across the Runtime Execution Boundary.
-
-Execution should remain bounded until sufficient evidence exists to support admissibility assessment.
+Admissibility cannot be assumed from partial measurement and must remain limited to what the available evidence can support.
 
 ---
 
-## What governance receipt would be produced?
+## Runtime Execution Boundary (REB)
 
-A governance receipt should record:
+**REB Decision:** **Review Required**
 
-- observation ID: nm-rico-syn-004
-- measurement status: partial
-- measurement coverage
-- measured stability and coherence
-- factual assessment unavailable
-- partially observed semantic variability
-- indeterminate continuity
-- known measurement limitations
-- authority not established by observation
-- admissibility posture: INSUFFICIENT EVIDENCE
-- execution boundary: HOLD pending additional observation
+No new, expanded, or materially consequential execution should proceed until sufficient observation or proportionate compensating controls are available.
+
+Existing low-consequence activity may remain bounded under applicable Policy-defined containment conditions.
+
+A HOLD may be applied where the requested consequence exceeds the evidentiary coverage permitted by governance policy.
 
 ---
 
-## RiCo Interpretation
+## Governance Receipt
+
+The Governance Receipt should record:
+
+- Observation ID: nm-rico-syn-004
+- Trace ID
+- Observation Receipt reference
+- Measurement status: partial
+- Measurement coverage
+- Stability and coherence within observed scope
+- Factual assessment unavailable
+- Indeterminate continuity
+- Known limitations
+- Authority reference
+- Policy reference
+- Admissibility Determination: **Insufficient Evidence**
+- REB Decision: **Review Required**
+- Constitutional Replay: **Supported**
+
+---
+
+## Constitutional Replay
+
+The Governance Receipt preserves sufficient information to reconstruct the observed evidence, identify missing evidence, apply Authority and Policy, reproduce the Admissibility Determination, and evaluate the resulting REB decision.
+
+---
+
+## Architectural Interpretation
 
 This case demonstrates that incomplete observation cannot establish complete represented reality.
 
-RiCo distinguishes between observed evidence and missing evidence.
+Observation identifies available evidence and exposes missing evidence.
 
-The absence of sufficient measurement is itself a governance finding.
+RiCo performs **Admissibility Determination** based on evidentiary sufficiency.
 
-When observation is incomplete, admissibility cannot be inferred.
+The **Runtime Execution Boundary (REB)** governs execution according to Authority, Policy, and available evidence.
 
-Execution remains bounded until sufficient runtime observation exists to support reconstructable governance at the Runtime Execution Boundary.
+Operational Continuity alone does not preserve **Legitimacy Continuity**.
