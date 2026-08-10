@@ -317,6 +317,7 @@ Runtime Integrity Control (RiCo) · AI runtime governance architecture
 
 - [LinkedIn](https://www.linkedin.com/in/richard-colimon-481645391/)
 - [ManChine AI Technologies](https://manchine.ai/) — runtime governance architecture for AI integrity, continuity and consequential governance.
+- [RGEP-01 — Runtime Governance Editorial & Publication Policy v1.0](https://manchine.ai/assets/whitepapers/RGEP-01_Runtime_Governance_Editorial_Publication_Policy.pdf)
 
 ### NeoMundi
 
@@ -659,6 +660,7 @@ Runtime Integrity Control (RiCo) · Architecture de gouvernance runtime des syst
 
 - [LinkedIn](https://www.linkedin.com/in/richard-colimon-481645391/)
 - [ManChine AI Technologies](https://manchine.ai/) — architecture de gouvernance runtime dédiée à l’intégrité, la continuité et la gouvernance conséquente des systèmes IA.
+- [RGEP-01 — Runtime Governance Editorial & Publication Policy v1.0](https://manchine.ai/assets/whitepapers/RGEP-01_Runtime_Governance_Editorial_Publication_Policy.pdf)
 
 ### NeoMundi
 
