@@ -307,6 +307,54 @@ Currently documented:
 
 ---
 
+## Current NeoMundi Interface Alignment — RGC v0.2
+
+NeoMundi's current public interoperability surface has advanced to the **RGC v0.2 interoperability specification**.
+
+This does not change the architectural separation established by this repository. RGC measurements remain **observational evidence** supplied to ManChine/RiCo; they do not become ManChine governance authority, admissibility determinations, or execution authorization.
+
+For future interoperability work, ManChine intends to preserve the measurement distinctions expressed by the producer interface, including states such as:
+
+- `measured`;
+- `not_measured`;
+- `insufficient_coverage`.
+
+A missing, `null`, unavailable, or insufficiently covered measurement must not be silently transformed into affirmative or reassuring governance evidence.
+
+RiCo remains responsible for evaluating received observational evidence within the applicable **Authority, Evidence, Context and Policy** and for independently determining what governance consequence, if any, follows.
+
+This alignment note is forward-looking. It does **not** represent a completed RGC v0.2 machine-to-machine interoperability run, and it does not retroactively modify the meaning or status of earlier NeoMundi/ManChine artifacts preserved in this repository.
+
+Historical artifacts remain historically intact. Future RGC v0.2 execution evidence should be added as a new validation layer rather than used to rewrite prior architectural records.
+
+The intended future validation chain is therefore:
+
+```text
+NeoMundi RGC v0.2 observation
+        │
+        ▼
+Machine-readable interoperability payload
+        │
+        ▼
+ManChine / RiCo ingestion
+        │
+        ▼
+Bounded interpretation of observational evidence
+        │
+        ▼
+Independent governance determination
+        │
+        ▼
+Runtime Execution Boundary
+        │
+        ▼
+Preserved governance evidence / receipt
+```
+
+No broader interoperability claim should be made until that exchange has been independently executed, preserved, and reviewed.
+
+---
+
 ## Resources
 
 ### Richard Colmon / ManChine AI Technologies
