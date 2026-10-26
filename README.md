@@ -10,7 +10,7 @@
 
 ## What happened here?
 
-NeoMundi and ManChine AI Technologies explored how runtime measurement can support governance immediately before consequential AI execution.
+NeoMundi and ManChine AI Technology LLC explored how runtime measurement can support governance immediately before consequential AI execution.
 
 NeoMundi provides **runtime observational evidence**.
 
@@ -46,7 +46,7 @@ It is not yet evidence of a completed machine-to-machine interoperability run.
 
 ## Use case context
 
-- **Runtime governance architecture:** Runtime Integrity Control (RiCo) · ManChine AI Technologies
+- **Runtime governance architecture:** Runtime Integrity Control (RiCo) · ManChine AI Technology LLC
 - **Runtime observation and measurement:** NeoMundi
 - **Governance determination:** RiCo
 - **Execution boundary:** Runtime Execution Boundary (REB)
@@ -357,14 +357,14 @@ No broader interoperability claim should be made until that exchange has been in
 
 ## Resources
 
-### Richard Colmon / ManChine AI Technologies
+### Richard Colimon / ManChine AI Technology LLC
 
-**Richard Colmon**
+**Richard Colimon**
 
 Runtime Integrity Control (RiCo) · AI runtime governance architecture
 
 - [LinkedIn](https://www.linkedin.com/in/richard-colimon-481645391/)
-- [ManChine AI Technologies](https://manchine.ai/) — runtime governance architecture for AI integrity, continuity and consequential governance.
+- [ManChine AI Technology LLC](https://manchine.ai/) — runtime governance architecture for AI integrity, continuity and consequential governance.
 - [RGEP-01 — Runtime Governance Editorial & Publication Policy v1.0](https://manchine.ai/assets/whitepapers/RGEP-01_Runtime_Governance_Editorial_Publication_Policy.pdf)
 
 ### NeoMundi
@@ -380,7 +380,7 @@ Runtime Integrity Control (RiCo) · AI runtime governance architecture
 
 The **Runtime Integrity Control (RiCo)** architecture and the concepts represented here as **Runtime Execution Boundary (REB)**, **Admissibility Determination**, **Governance Receipt** and **Constitutional Replay** are attributed in this repository to:
 
-**Richard Colmon — ManChine AI Technologies**
+**Richard Colimon — ManChine AI Technology LLC**
 
 NeoMundi contributes the runtime observational and measurement layer within the documented articulation.
 
@@ -401,7 +401,7 @@ Authorship and attribution must be preserved where explicitly identified.
 
 ## Qu’est-ce qui a été fait ici ?
 
-NeoMundi et ManChine AI Technologies ont exploré comment une mesure runtime peut alimenter une gouvernance intervenant immédiatement avant l’exécution conséquente d’un système IA.
+NeoMundi et ManChine AI Technology LLC ont exploré comment une mesure runtime peut alimenter une gouvernance intervenant immédiatement avant l’exécution conséquente d’un système IA.
 
 NeoMundi fournit des **preuves observationnelles runtime**.
 
@@ -437,7 +437,7 @@ Il ne constitue pas encore la preuve d’une exécution d’interopérabilité m
 
 ## Contexte du use case
 
-- **Architecture de gouvernance runtime :** Runtime Integrity Control (RiCo) · ManChine AI Technologies
+- **Architecture de gouvernance runtime :** Runtime Integrity Control (RiCo) · ManChine AI Technology LLC
 - **Observation et mesure runtime :** NeoMundi
 - **Détermination de gouvernance :** RiCo
 - **Frontière d’exécution :** Runtime Execution Boundary (REB)
@@ -700,14 +700,14 @@ Actuellement documentés :
 
 ## Ressources
 
-### Richard Colmon / ManChine AI Technologies
+### Richard Colimon / ManChine AI Technology LLC
 
-**Richard Colmon**
+**Richard Colimon**
 
 Runtime Integrity Control (RiCo) · Architecture de gouvernance runtime des systèmes IA
 
 - [LinkedIn](https://www.linkedin.com/in/richard-colimon-481645391/)
-- [ManChine AI Technologies](https://manchine.ai/) — architecture de gouvernance runtime dédiée à l’intégrité, la continuité et la gouvernance conséquente des systèmes IA.
+- [ManChine AI Technology LLC](https://manchine.ai/) — architecture de gouvernance runtime dédiée à l’intégrité, la continuité et la gouvernance conséquente des systèmes IA.
 - [RGEP-01 — Runtime Governance Editorial & Publication Policy v1.0](https://manchine.ai/assets/whitepapers/RGEP-01_Runtime_Governance_Editorial_Publication_Policy.pdf)
 
 ### NeoMundi
@@ -723,7 +723,7 @@ Runtime Integrity Control (RiCo) · Architecture de gouvernance runtime des syst
 
 Les concepts **Runtime Integrity Control (RiCo)**, **Runtime Execution Boundary (REB)**, **Admissibility Determination**, **Governance Receipt** et **Constitutional Replay** représentés dans ce dépôt sont attribués à :
 
-**Richard Colmon — ManChine AI Technologies**
+**Richard Colimon — ManChine AI Technology LLC**
 
 NeoMundi apporte la couche d’observation et de mesure runtime dans l’articulation documentée.
 
